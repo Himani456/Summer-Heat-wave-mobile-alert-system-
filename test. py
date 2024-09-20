@@ -1,0 +1,5 @@
+import pytest
+from alert import check_heat_wave
+
+def test_check_heat_wave():
+    assert check_heat_wave() is None
